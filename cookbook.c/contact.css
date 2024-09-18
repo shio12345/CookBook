@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fcb981;
+  color: #333;
+}
+
+header {
+  text-align: center;
+  padding: 2rem 0;
+  background-color: #3379ea;
+  color: rgb(252, 252, 252);
+}
+
+header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+header p {
+  font-size: 1.2rem;
+}
+
+.team {
+  display: flex;
+  justify-content: center;
+  margin: 2rem 0;
+  gap: 2rem;
+}
+
+.team-member {
+  background-color: rgb(238, 249, 236);
+  padding: 1.5rem;
+  border-radius: 8px;
+  border-color: #0b0b0b;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 300px;
+}
+
+.team-member img {
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+}
+
+.team-member h2 {
+  margin: 1rem 0 0.5rem;
+  font-size: 1.5rem;
+}
+
+.team-member h3 {
+  color: #007BFF;
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+}
+
+.team-member p {
+  font-size: 1rem;
+  line-height: 1.5;
+}
